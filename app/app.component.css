@@ -1,0 +1,138 @@
+/*.custom-input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 100% ;
+}*/
+
+.input-group {
+  width: 100%;
+}
+
+.content {
+  background-color: rgb(221, 221, 221);
+}
+
+.main {
+  width: 700px;
+}
+
+button {
+  float: right;
+}
+
+a {
+  color: rgb(195, 195, 195);
+}
+
+.signup-label {
+  float: right;
+  padding: 0 10px 0 10px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.no-margin {
+  margin: 0 0 0 0;
+}
+
+.no-padding {
+  padding: 0 0 0 0;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: red;
+}
+
+input:focus:-moz-placeholder {
+    color: red;
+}
+
+input:focus::-moz-placeholder {
+    color: red;
+}
+
+input:focus:-ms-input-placeholder {
+    color: red;
+}
+
+.login-btn {
+  background-color: rgb(155, 44, 41);
+  color: white;
+} 
+
+.signup-btn {
+  background-color: rgb(217, 0, 0);
+  color: white
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  background-color: rgb(155,44,41);
+  color: white;
+}
+
+
+ul.topnav li {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav {position: relative;}
+  ul.topnav li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav li {
+    display: block;
+    text-align: center;
+  }
+
+  .signup-label {
+    display: none;
+  }
+
+  .signup-btn {
+    width: 100%;
+  }
+
+  .content {
+    height: 100%;
+  }
+}
+
+@media (min-width: 970px) {
+    ul.topnav {
+        max-width: 970px;
+    }
+
+}       
