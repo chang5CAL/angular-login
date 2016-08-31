@@ -6,6 +6,19 @@
     width: 100% ;
 }*/
 
+.custom-input {
+  background-color: transparent;
+  border-width: 0px;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 30px;    
+}
+
+.custom-input:focus {
+  outline: none;
+  border-color: red;
+}
+
 .input-group {
   width: 100%;
 }
