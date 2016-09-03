@@ -1,6 +1,9 @@
-//import { LoginService } from './login.service'
-describe('LoginServices', function () {
-    it('JasmineTest', function () {
+"use strict";
+describe('LoginService', function () {
+    it('testTest', function () {
+        expect(1).toEqual(1);
+    });
+    it('test2Test', function () {
         expect(1).toEqual(1);
     });
     /*

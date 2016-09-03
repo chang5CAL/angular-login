@@ -1,8 +1,12 @@
-//import { LoginService } from './login.service'
+import { LoginService } from './login.service';
 
-describe('LoginServices', () => {
+describe('LoginService', () => {
 
-	it('JasmineTest', () => {
+	it('testTest', () => {
+		expect(1).toEqual(1);
+	});
+	
+	it('test2Test', () => {
 		expect(1).toEqual(1);
 	});
 /*
