@@ -1,10 +1,10 @@
-import { LoginService } from './login.service'
+//import { LoginService } from './login.service'
 
 describe('LoginServices', () => {
 
 	it('JasmineTest', () => {
 		expect(1).toEqual(1);
-	})
+	});
 /*
 	it('validUser', () => {
 		let logged = LoginService.={};

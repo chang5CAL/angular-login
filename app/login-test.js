@@ -1,4 +1,4 @@
-"use strict";
+//import { LoginService } from './login.service'
 describe('LoginServices', function () {
     it('JasmineTest', function () {
         expect(1).toEqual(1);
